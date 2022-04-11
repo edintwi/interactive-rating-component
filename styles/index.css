@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@700&family=Righteous&display=swap');
+html{
+    height: 100%;
+}
+body{
+    background-color: black;
+    font-family: 'OverPass', cursive;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    height: 100%;
+}
+body p{
+    font-size: 15px;
+    color: hsl(217, 12%, 63%);
+    margin: 0px 0px 20px 0px;
+}
+body h1{
+    font-weight:normal;
+    text-decoration: none;
+    margin: 10px 0px 0px 0px;
+}
+.rating-container{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    padding: 15px;
+    background-color: hsl(216, 12%, 8%);
+    color: #fff;
+    border-radius: 20px;
+    margin: 15px;
+}
+.start-icon img{
+    border-radius: 50px;
+    background-color: hsl(213, 19%, 18%);
+    padding: 10px;
+}
+#rating{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;   
+}
+#rating input{
+    background-color: hsl(213, 19%, 18%);
+    border-radius: 50px;
+    border: none;
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+    color: hsl(217, 12%, 63%);
+    font-family: 'OverPass', cursive;
+}
+#rating input:hover{
+    background-color: hsl(25, 97%, 53%);
+    color: #fff;
+}
+#btn-submit{
+    background-color: hsl(25, 97%, 53%);
+    border-radius: 50px;
+    border: none;
+    text-align: center;
+    margin-top: 20px;
+    height: 50px;
+    color: #fff;
+    font-family: 'OverPass', cursive;
+    letter-spacing: 5px;
+    font-weight: 400;
+}
+.rating-success{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    background-color: hsl(216, 12%, 8%);
+    border-radius: 20px;
+    margin: 15px;
+    display: none;
+    width: 300px;
+}
+.rating-success img{
+    width: 50%;
+    height: 50%;
+}
+.rating-success h1{
+    color: #fff;
+}
+.rating-success p{
+    text-align: center;
+    margin-top: 15px;
+}
+#rating-note{
+    color: hsl(25, 97%, 53%);
+    background-color: hsl(213, 19%, 18%);
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 5px;
+}
+.attribution{
+color: #fff;
+}
+.hide{
+    display: none;
+}
+.show{
+    display: flex;
+}
